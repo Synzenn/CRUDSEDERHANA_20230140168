@@ -13,7 +13,8 @@ namespace CRUDTIDAKSEDERHANA
 {
     public partial class Form1: Form
     {
-    
+        private string connectionString =
+            "Data Source=SYNZENN\\SYNZENN;Initial Catalog=OrganisasiMahasiswa;Integrated Security=True";
 
 
 }
