@@ -156,6 +156,12 @@ namespace CRUDTIDAKSEDERHANA
                 "Debugging DataGridView", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        private void btnUbah_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
         
     }
 }
