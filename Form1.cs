@@ -17,5 +17,20 @@ namespace CRUDTIDAKSEDERHANA
             "Data Source=SYNZENN\\SYNZENN;Initial Catalog=OrganisasiMahasiswa;Integrated Security=True";
 
 
-}
+        public Form1()
+        {
+            InitializeComponent();
+        }
+        private void ClearForm()
+        {
+            txtNIM.Clear();
+            txtNama.Clear();
+            txtEmail.Clear();
+            txtTelepon.Clear();
+            txtAlamat.Clear();
 
+            // Fokus kembali ke NIM agar user siap memasukkan data baru
+            txtNIM.Focus();
+        }
+
+        
